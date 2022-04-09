@@ -5,6 +5,8 @@ v2.2.0
 开启抓包工具,果园浇一次水,在抓包记录里搜water,复制请求头里的cookie
 boxjs订阅地址:https://gitee.com/passerby-b/javascript/raw/master/JD/passerby-b.boxjs.json
 
+const $ = new Env("快手果园");
+
 [task_local]
 30 1,8,12,17 * * * https://raw.githubusercontent.com/passerby-b/ks_fruit/main/ks_fruit.js
 
